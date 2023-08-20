@@ -32,4 +32,27 @@ asi se configura""";
   print(nombre1.toUpperCase());
   print(nombre1.toLowerCase());
   print(nombre1.trim());
+  print(nombre1.compareTo("juan gabriel lopez"));
+  print(nombre1.replaceAll("a", "e"));
+  print(nombre1.substring(4, 10));
+  print(nombre1.contains("Juan"));
+  print(nombre1.startsWith("J"));
+  print(nombre1.endsWith("z"));
+
+  String dni = "43425259";
+  String nombre2 = "Sabino";
+  String lasName = "Kari Benites";
+  /*
+  1.- Crear un codigo personalizado de usuario
+  2.- Primeras letras de nombre, las dos ultimas letras de apellido
+  y los 4 ultimos digitos del DNI.
+  ====== Edez0815
+  */
+  print(nombre2.substring(0, 2));
+  print(lasName.substring(3, 4));
+  print(lasName.substring(11, 12));
+  print(dni.substring(4, 8));
+
+
+  
 }
