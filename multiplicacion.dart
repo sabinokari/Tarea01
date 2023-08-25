@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 void main() {
   int multiplicacion = 12;
 
@@ -7,6 +9,6 @@ void main() {
     for (int j = 1; j <= multiplicacion; j++) {
       print("$i x $j = ${i * j}");
     }
-    print(""); // Una línea en blanco para separar cada fila
+    print("");
   }
 }
